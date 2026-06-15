@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terra Coffee — Neighborhood Café in [City]</title>
+  <meta name="description" content="Terra Coffee is a small, independent café in [City]. Good coffee, a relaxed atmosphere, and a menu worth exploring. Come as you are." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo">Terra Coffee</a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#location" class="nav-link">Find Us</a>
+      </nav>
+      <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="nav-mobile" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#menu" class="nav-link">Menu</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#location" class="nav-link">Find Us</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" aria-label="Welcome to Terra Coffee">
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <h1 class="hero-h1">Your neighborhood<br>coffee spot.</h1>
+        <p class="hero-sub">Good coffee. A real place. Come as you are.</p>
+        <div class="hero-ctas">
+          <a href="#menu" class="btn-primary">View Menu</a>
+          <a href="#location" class="btn-secondary">Find Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section section-about" id="about">
+      <div class="container about-inner">
+        <div class="about-text">
+          <h2>A café for the neighborhood,<br>not for the algorithm.</h2>
+          <p>Terra Coffee is a small, independent café on your street. We brew coffee we'd drink ourselves, keep the music low enough to think, and leave the vibe up to you — laptop open or conversation going.</p>
+          <p>No loyalty apps. No seasonal gimmicks. Just good coffee and a place to land.</p>
+          <p class="text-muted">Terra Coffee is a fictional café concept created as a clean one-page website demo. It shows how a small local café can present its atmosphere, menu, location, and contact details in a simple, warm, and easy-to-use layout.</p>
+        </div>
+        <div class="about-image">
+          <img src="assets/images/interior.png" alt="Cozy interior of Terra Coffee café with warm lighting and wooden furniture" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MENU PREVIEW ========== -->
+    <section class="section section-alt" id="menu">
+      <div class="container">
+        <h2>What we brew.</h2>
+        <p class="section-intro">Simple menu. Everything made to order.</p>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <span class="menu-item-name">Espresso</span>
+            <span class="menu-item-desc">Short and direct. The foundation of everything.</span>
+          </div>
+          <div class="menu-card">
+            <span class="menu-item-name">Flat White</span>
+            <span class="menu-item-desc">Velvety microfoam over a double ristretto.</span>
+          </div>
+          <div class="menu-card">
+            <span class="menu-item-name">Filter Coffee</span>
+            <span class="menu-item-desc">Rotating single origin, brewed clean and slow.</span>
+          </div>
+          <div class="menu-card">
+            <span class="menu-item-name">Matcha Latte</span>
+            <span class="menu-item-desc">Ceremonial grade. Oat milk by default.</span>
+          </div>
+          <div class="menu-card">
+            <span class="menu-item-name">Seasonal Special</span>
+            <span class="menu-item-desc">[Placeholder: add current seasonal drink]</span>
+          </div>
+          <div class="menu-card">
+            <span class="menu-item-name">Pastries</span>
+            <span class="menu-item-desc">Baked fresh from [Placeholder: local supplier].</span>
+          </div>
+        </div>
+        <!-- Replace href with real menu link: PDF, external page, or in-page section -->
+        <div class="menu-cta">
+          <a href="#" class="btn-primary" aria-label="See the full Terra Coffee menu">See Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY ========== -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <h2>A place worth visiting.</h2>
+        <p class="section-intro">See you inside.</p>
+        <div class="gallery-grid" role="list">
+          <div class="gallery-item" role="listitem">
+            <img class="gallery-img" src="assets/images/interior.png" alt="Warm interior of Terra Coffee with wooden tables and natural light" />
+          </div>
+          <div class="gallery-item" role="listitem">
+            <img class="gallery-img" src="assets/images/coffee-cup.png" alt="Flat white served at Terra Coffee in a ceramic cup" />
+          </div>
+          <div class="gallery-item" role="listitem">
+            <img class="gallery-img" src="assets/images/hands-mug.png" alt="Hands wrapped around a coffee mug at Terra Coffee" />
+          </div>
+          <div class="gallery-item" role="listitem">
+            <img class="gallery-img" src="assets/images/window-seat.png" alt="Sunlit window seat at Terra Coffee neighborhood café" />
+          </div>
+          <div class="gallery-item" role="listitem">
+            <img class="gallery-img" src="assets/images/counter.png" alt="Terra Coffee counter and bar area" />
+          </div>
+          <div class="gallery-item" role="listitem">
+            <img class="gallery-img" src="assets/images/pastries.png" alt="Pastries on display at Terra Coffee" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== LOCATION ========== -->
+    <section class="section section-location" id="location">
+      <div class="container location-inner">
+        <div class="location-text">
+          <h2>Where to find us.</h2>
+          <address class="location-address">
+            <p>42 Linden Street<br>Riverton, RT 20418</p>
+          </address>
+          <div class="location-hours">
+            <div class="hours-row">
+              <span class="hours-day">Monday – Friday</span>
+              <span class="hours-time">8:00 – 19:00</span>
+            </div>
+            <div class="hours-row">
+              <span class="hours-day">Saturday – Sunday</span>
+              <span class="hours-time">9:00 – 17:00</span>
+            </div>
+          </div>
+          <p class="location-tagline">We're easy to find. Harder to leave.</p>
+        </div>
+        <div class="location-map">
+          <!-- Replace with Google Maps embed when address is confirmed -->
+          <div class="map-placeholder" role="img" aria-label="Map placeholder — address coming soon">
+            <p>Map coming soon</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-inner">
+        <h2>Say hello.</h2>
+        <p>Questions, catering inquiries, or just want to say hi — reach us directly.</p>
+        <ul class="contact-list" aria-label="Contact information">
+          <li>
+            <span class="contact-label">Email</span>
+            <!-- Replace with real email -->
+            <a href="mailto:hello@terracoffee.com" class="contact-link">hello@terracoffee.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Phone</span>
+            <!-- Replace with real phone -->
+            <a href="tel:+00000000000" class="contact-link">[Placeholder: phone number]</a>
+          </li>
+          <li>
+            <span class="contact-label">Instagram</span>
+            <!-- Replace with real handle -->
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-link">@terracoffee</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; 2025 Terra Coffee. All rights reserved.</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#menu" class="footer-link">Menu</a>
+        <a href="#about" class="footer-link">About</a>
+        <a href="#location" class="footer-link">Find Us</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
